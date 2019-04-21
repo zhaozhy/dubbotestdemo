@@ -1,0 +1,9 @@
+server:
+  port: 8681
+dubbo:
+  application:
+    name: service
+  protocol:
+    port: 20880
+  registry:
+    address: zookeeper://192.168.1.201:2181
